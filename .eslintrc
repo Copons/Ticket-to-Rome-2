@@ -7,16 +7,14 @@
   },
   "parserOptions": {
     "ecmaFeatures": {
-      "jsx": true
+      "jsx": true,
+      "experimentalObjectRestSpread": true
     },
     "ecmaVersion": 7,
     "sourceType": "module"
   },
   "rules": {
-    "array-bracket-spacing": [2, "always", {
-      "arraysInArrays": true,
-      "objectsInArrays": true
-    }],
+    "array-bracket-spacing": [2, "never"],
     "arrow-parens": [2, "as-needed", {"requireForBlockBody": false}],
     "brace-style": [2, "1tbs"],
     "camelcase": 2,
@@ -107,7 +105,7 @@
     "space-before-function-paren": [2, "never"],
     "space-in-parens": [2, "never"],
     "space-infix-ops": [2, { "int32Hint": false }],
-    "space-unary-ops": [ 2, { "overrides": { "!": true } }],
+    "space-unary-ops": 2,
     "strict": [2, "never"],
     "template-curly-spacing": [2, "never"],
     "yoda": 0
