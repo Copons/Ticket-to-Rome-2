@@ -1,0 +1,55 @@
+{
+  "name": "ticket-to-rome-2",
+  "version": "0.0.1",
+  "description": "Another rip-off of the great boardgame Ticket to Ride",
+  "main": "server/index.js",
+  "scripts": {
+    "start": "node server",
+    "build": "webpack --config webpack.prod.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Copons/Ticket-to-Rome-2.git"
+  },
+  "author": "",
+  "license": "GPL-2.0+",
+  "bugs": {
+    "url": "https://github.com/Copons/Ticket-to-Rome-2/issues"
+  },
+  "homepage": "https://github.com/Copons/Ticket-to-Rome-2",
+  "dependencies": {
+    "babel-core": "^6.26.0",
+    "babel-loader": "^7.1.2",
+    "babel-preset-env": "^1.6.1",
+    "babel-preset-react": "^6.24.1",
+    "chalk": "^2.3.0",
+    "clean-webpack-plugin": "^0.1.17",
+    "css-loader": "^0.28.8",
+    "eslint": "^4.15.0",
+    "eslint-config-airbnb": "^16.1.0",
+    "eslint-config-standard": "^11.0.0-beta.0",
+    "eslint-plugin-import": "^2.8.0",
+    "eslint-plugin-jsx-a11y": "^6.0.3",
+    "eslint-plugin-node": "^5.2.1",
+    "eslint-plugin-promise": "^3.6.0",
+    "eslint-plugin-react": "^7.5.1",
+    "eslint-plugin-standard": "^3.0.1",
+    "express": "^4.16.2",
+    "html-loader": "^0.5.4",
+    "html-webpack-plugin": "^2.30.1",
+    "node-sass": "^4.7.2",
+    "prettier": "^1.9.2",
+    "react": "^16.2.0",
+    "react-dom": "^16.2.0",
+    "react-hot-loader": "^4.0.0-beta.13",
+    "sass-loader": "^6.0.6",
+    "socket.io": "^2.0.4",
+    "socket.io-client": "^2.0.4",
+    "style-loader": "^0.19.1",
+    "uglifyjs-webpack-plugin": "^1.1.6",
+    "webpack": "^3.10.0",
+    "webpack-dev-middleware": "^2.0.4",
+    "webpack-hot-middleware": "^2.21.0",
+    "webpack-merge": "^4.1.1"
+  }
+}
